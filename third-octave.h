@@ -13,11 +13,19 @@
 #include <stdexcept>
 #include <stdio.h>
 #include <stdlib.h>
+
 //Githubs
 #include "src/coeff-butter.h"
 //#include "src/coeff-cheby2"
 #include "src/FiltFilt.h"
 #include "src/downsample.h"
+
+//Source Files
+#include <third2/src/Framer.cpp>
+#include <third2/src/DFProcess.cpp>
+#include <third2/src/FiltFilt.cpp>
+#include <third2/src/Filter.cpp>
+#include <third2/src/MathUtilities.cpp>
 
 using namespace std;
 
