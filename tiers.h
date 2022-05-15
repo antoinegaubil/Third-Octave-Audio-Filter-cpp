@@ -1,14 +1,9 @@
 #ifndef tiers_h
 #define tiers_h
 
-/*
-À daté du 8 Avril 2022
-Auteur : Antoine Gaubil - Atelier 7Hz
-*/
 
 //Libraries
 #include <iostream>
-#include <fstream>
 #include <string>
 #include <cmath>
 #include <complex>
@@ -19,22 +14,21 @@ Auteur : Antoine Gaubil - Atelier 7Hz
 #include <stdio.h>
 #include <stdlib.h>
 //Githubs
-#include "header-files/coeff-butter.h"
-#include "header-files/json.h"
-#include "qm-dsp/dsp/signalconditioning/FiltFilt.h"
-#include "header-files/downsample.h"
+#include "src/coeff-butter.h"
+#include "src/FiltFilt.h"
+#include "src/downsample.h"
 
 using namespace std;
 
 
-int third_octave(vector<double> wavedata, double F[], double max, float samplingrate, float h);
+int third_octave(vector<double> wavedata, double F[], float samplingrate);
 
 
 
 
 
 //Apply Third-octave filter with butterworth coefficients
-int third_octave(vector<double> wavedata, double F[], double max, float samplingrate, float h)
+int third_octave(vector<double> wavedata, double F[], float samplingrate)
 {
     vector<double> data(samplingrate);
     
@@ -165,7 +159,7 @@ int third_octave(vector<double> wavedata, double F[], double max, float sampling
     //CONVERSION TO DECIBELS
     for (int i =0; i<33; i++)
     {
-        F[i] = 20*log10(F[i]/0.00002)+h;
+        F[i] = 20*log10(F[i]/0.00002);
     }
     
     
