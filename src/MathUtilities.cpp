@@ -13,7 +13,7 @@
     COPYING included with this distribution for more information.
 */
 
-#include "qm-dsp/maths/MathUtilities.h"
+#include "MathUtilities.h"
 
 #include <iostream>
 #include <algorithm>
