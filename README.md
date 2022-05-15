@@ -15,6 +15,7 @@ Christophe Couvreur uses 2 digital filters :
 These 2 matlab functions have been translated to C++ and can be found here :
 
 FiltFilt : https://github.com/c4dm/qm-dsp
+
 Downsample : https://gist.github.com/pixelpusher/c394da7c668db8d8c6560e0fe80c7287
 
 
