@@ -13,7 +13,7 @@
     COPYING included with this distribution for more information.
 */
 
-#include "qm-dsp/dsp/signalconditioning/Framer.h"
+#include "Framer.h"
 
 #include <limits.h>
 
