@@ -21,8 +21,8 @@
     COPYING included with this distribution for more information.
 */
 
-#include  "qm-dsp/dsp/signalconditioning/DFProcess.h"
-#include "qm-dsp/maths/MathUtilities.h"
+#include "DFProcess.h"
+#include "MathUtilities.h"
 
 #include <cstring>
 #include <algorithm>
