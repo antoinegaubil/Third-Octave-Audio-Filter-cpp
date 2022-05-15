@@ -46,7 +46,7 @@ To display the output frequency by frenquency :
 ```
 for (int i = 0; i<33; i++)
 {
-std::cout << "Value of Octave : " << F[i] << " at frequency : " << FrequencyTable[i] << "Hz" << std::endl;
+std::cout << "Value of Octave : " << F[i] << " at frequency : " << FrequencyTable[i] << "dB" << std::endl;
 }
 ```
 
