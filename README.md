@@ -38,10 +38,10 @@ F is the output of the function.
 samplingrate is the wanted samplingrate. 
 
 To display the output frequency by frenquency :
-
+```
 for (int i = 0; i<33; i++)
 {
 std::cout << "Value of Octave : " << F[i] << " at frequency : " << FrequencyTable[i] << "Hz" << std::endl;
 }
-
+```
 
