@@ -12,7 +12,7 @@
     COPYING included with this distribution for more information.
 */
 
-#include "qm-dsp/dsp/signalconditioning/Filter.h"
+#include "Filter.h"
 
 #include <stdexcept>
 
