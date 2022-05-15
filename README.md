@@ -30,12 +30,16 @@ Simply include the header file and call the "third_octave()" function:
 ```
 #include <third-octave.h>
 ```
+
 Call the function from your main file :
+
 ```
 third_octave(wavedata, F, samplingrate);
 ```
 wavedata is your data vector.
+
 F is the output of the function.
+
 samplingrate is the wanted samplingrate. 
 
 To display the output frequency by frenquency :
