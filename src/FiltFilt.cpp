@@ -13,7 +13,7 @@
     COPYING included with this distribution for more information.
 */
 
-#include "qm-dsp/dsp/signalconditioning/FiltFilt.h"
+#include "FiltFilt.h"
 #include <iostream>
 
 using namespace std;
