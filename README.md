@@ -26,13 +26,13 @@ The filter is using ButterWorth coefficients by default.
 To implement the filter, download the git repo and change the header search path of your code to the full path of the location of the repo.
 
 Simply include the header file and call the "third_octave()" function:
-
+```
 #include <third-octave.h>
-
+```
 Call the function from your main file :
-
+```
 third_octave(wavedata, F, samplingrate);
-
+```
 wavedata is your data vector.
 F is the output of the function.
 samplingrate is the wanted samplingrate. 
