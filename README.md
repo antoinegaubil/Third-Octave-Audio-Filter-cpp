@@ -51,4 +51,5 @@ std::cout << "Value of Octave : " << F[i] << " at frequency : " << FrequencyTabl
 ```
 
 Testing the third octave filter with pink noise : 
-![tiers rose](https://user-images.githubusercontent.com/90474617/168492891-2eb5d14c-016c-4209-b6ab-547eb9e385d7.png)
+![gitrose](https://user-images.githubusercontent.com/90474617/168493349-a7138f70-1bd8-4c10-9f0c-68371a7ff141.png)
+
