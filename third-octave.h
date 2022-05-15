@@ -15,8 +15,8 @@
 #include <stdlib.h>
 
 //Githubs
-#include "src/coeff-butter.h"
-//#include "src/coeff-cheby2"
+#include "src/coeff-butter.h" //Comment "#include "src/coeff-cheby2"" to use ButterWorth.
+//#include "src/coeff-cheby2" //Comment "#include "src/coeff-butter.h"" to use chebyshev II.
 #include "src/FiltFilt.h"
 #include "src/downsample.h"
 
